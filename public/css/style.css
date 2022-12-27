@@ -1,0 +1,474 @@
+/* using for entire body page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    border: 2px solid rgb(60, 72, 240);
+    border-radius: 45%;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+.navbar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 80%;
+    background-color: rgb(8, 58, 92);
+    display: flex;
+    align-items: center;
+
+
+}
+
+/* navbar ke about ,contact etc */
+.nav-list li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* move mouse cursor to text item to chnage txt color */
+.nav-list li a:hover {
+    color: rgb(44, 230, 152);
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 19px;
+
+}
+
+.rightNAv {
+    width: 80%;
+    background-color: rgb(8, 58, 92);
+    text-align: right;
+    padding: 20px 23px;
+}
+
+/* changes for search btn */
+#search {
+    color: rgb(10, 4, 2);
+    padding: 3px;
+    font-size: 10px;
+
+    border-radius: 10px;
+
+
+}
+
+.background {
+    background: black url('../img/laptop\ bg.jpg');
+    background-size: cover;
+    /* background-blend-mode: darken; */
+
+}
+
+.firstSection {
+    height: 60vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 139, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    max-width: 50%;
+    height: 80%;
+}
+h1{
+    font-size: 50px;
+   
+    justify-content: center;
+    display: flex;
+}
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 150%;
+    padding: 2px;
+    border: 5px solid rgb(29, 224, 166);
+    border-radius: 150px;
+    display: block;
+    margin: 100px;
+}
+
+.text-big {
+    font-size: 32px;
+    border-left-color: aqua;
+
+}
+
+.text-small {
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    padding: 8px 20px;
+    margin: px 0;
+
+    border-radius: 8px;
+    border: 4px solid whitesmoke;
+
+    background: none;
+    cursor: pointer;
+    transition: 1s;
+
+    font-size: 20px;
+}
+
+.buttons {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    color: rgb(124, 201, 124);
+    background-color: rgb(17, 189, 219);
+}
+
+.btn {
+    padding: 10px;
+    margin: 9px;
+    border-radius: 20px;
+    color: rgb(242, 243, 247);
+    background-color: rgb(235, 84, 38);
+}
+
+.btn-sm {
+    padding: 2px 10px;
+    vertical-align: middle;
+    font-size: 15spx;
+    border: 2px;
+}
+
+.section {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
+    justify-content: space-evenly;
+
+}
+
+.section-left {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    border: 2px solid wheat;
+    border-radius: 200px;
+
+
+
+
+}
+
+.sectionTAg text-big {
+    font-size: 30px;
+
+}
+
+.sectionsubTag text-small {
+    font-size: 20px;
+}
+.TAg text{
+    font-size: x-large;
+    color: rgb(116, 212, 180);
+   
+}
+.Tag{
+    
+    font-size: x-small;
+}
+.parser {
+    padding: 0 60px;
+}
+
+.Copyright{
+    text-align: center;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(../img/bg\ img.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+/* form input style  */
+.box {
+    display: flex; 
+    align-items: center;
+      margin: auto; 
+    height: 80%;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+
+#formdetails{
+    display: flex;
+    justify-content: center;
+    
+}
+from{
+    background-color: rgb(6, 75, 75);
+}
+
+#submitDetails {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 236, 236);
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+
+/* first section video */
+
+video {
+    height: auto;
+    margin: 2px;
+    display: flex;
+    width: -webkit-fill-available;
+}
+/* last section contact details  */
+.navFooterVerticalColumn{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+
+/* last section contact details verticalRow  */
+}
+.navFooterVerticalRow {
+    display: flex;
+    text-decoration: none;
+    width: 230vh;
+    height: 210px;
+    background-color: #d9d9fe;
+     justify-content: space-evenly;}
+     .navFooterLinkCol{
+        margin: 50px;
+        font-size: 18px;
+     }
+
+     /* last section heading details */
+     .navFooterColHead{
+        font-size: 20px;
+        color: rgb(7, 9, 145);
+
+     }
+     .containerBox{
+        display: flex;
+      border-color: antiquewhite;
+     }
+     .mobileimg{
+        width: 171px;
+        height: 152px;
+        border: 4px solid wheat;
+        border-radius: 40px;
+        display: flex;
+            height: 200px;
+            width: 200px;         
+            justify-content: center;
+            /* transition-duration: 1s; */
+       
+     }
+     .mobileimg:hover{ 
+     height:230px;
+    
+     width: 230px;
+     /* border-radius: 100px; */
+     cursor: pointer;
+     }
+     #Mobilebox{
+        padding: 20px 12px;
+        margin:30px 2px;
+        background-color: darkcyan;
+     }
+     .text-big1{
+
+        font-size: 30px;
+     }
+     .moredetails{
+        font-size: 13px;
+        background: #f3f383
+
+     }
+     .buy{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background: #aceca0;
+        cursor: pointer;
+     }
+     .fa {
+        padding: 6px;
+        font-size: 3px;
+        width: 50px;
+        text-align: center;
+       
+
+        text-decoration: none;
+        border-radius: 24%;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }.fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      
+      .fa-pinterest {
+        background: #cb2027;
+        color: white;
+      }
+      
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      
+      .fa-skype {
+        background: #00aff0;
+        color: white;
+      }
+      
+      .fa-android {
+        background: #a4c639;
+        color: white;
+      }
+      
+      .fa-dribbble {
+        background: #ea4c89;
+        color: white;
+      }
+      
+      .fa-vimeo {
+        background: #45bbff;
+        color: white;
+      }
+      
+      .fa-tumblr {
+        background: #2c4762;
+        color: white;
+      }
+      
+      .fa-vine {
+        background: #00b489;
+        color: white;
+      }
+      
+      .fa-foursquare {
+        background: #45bbff;
+        color: white;
+      }
+      
+      .fa-stumbleupon {
+        background: #eb4924;
+        color: white;
+      }
+      
+      .fa-flickr {
+        background: #f40083;
+        color: white;
+      }
+      
+      .fa-yahoo {
+        background: #430297;
+        color: white;
+      }
+      
+      .fa-soundcloud {
+        background: #ff5500;
+        color: white;
+      }
+      
+      .fa-reddit {
+        background: #ff5700;
+        color: white;
+      }
+      
+      .fa-rss {
+        background: #ff6600;
+        color: white;
+      }
